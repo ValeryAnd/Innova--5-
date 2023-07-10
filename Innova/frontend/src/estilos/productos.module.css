@@ -1,0 +1,326 @@
+
+
+/* Estilos para la sección */
+section {
+    padding: 5% 10%;
+}
+
+/* Estilos para la sección principal de la página de inicio */
+.mainHome {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/pexels-sound-on-3394666.jpg);
+    background-position: right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainText {
+    width: 40%;
+}
+/* Estilos para el subtitulo */
+.feauterSubtitle {
+    padding: 10px 0;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+/* Estilos para el titulo */
+.feauterTitle {
+    padding: 10px 0;
+    color: #FF9858;
+    font-size: 40px;
+}
+
+.feauterText {
+    padding: 10px 0 35px;
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.button {
+    width: 184px;
+    height: 57px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la flecha que señala abajo */
+.downArrow {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2c2c2c;
+    border-radius: 50%;
+    color: black;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.downArrow:hover {
+    background-color: black;
+    transition: all .42s ease;
+}
+
+.down:hover {
+    color: white;
+}
+
+/* Estilos para el encabezado fijo */
+header.sticky {
+    background-color: #fff;
+    padding: 20px 10%;
+    box-shadow: 0 0 10px rgba(0 0 0/ 10%);
+}
+
+/* Estilos para el texto centrado en secciones */
+.centerText h2 {
+    color: black;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+}
+
+/* Estilos para la línea divisora */
+.line {
+    position: relative;
+}
+
+/* Estilos para la sección de productos */
+.line::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #A0A0A0;
+}
+
+.bottomTop::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #A0A0A0;
+}
+
+/* Estilos para la sección de productos */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* Estilos para las filas de productos */
+.row {
+    position: relative;
+    transition: all 0.40s;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.row img:hover {
+    transform: scale(0.9);
+}
+
+.productText {
+    text-transform: uppercase;
+}
+
+/* Estilos para los enlaces de compra */
+.buyIcon a {
+    display: inline;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Estilos para la sección de clientes y rectángulo */
+.clients, .rectangle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+/* Estilos para la sección de clientes */
+.clients {
+    text-align: center;
+}
+
+/* Estilos para las filas de la sección de clientes */
+.rowTwo, .rowThree {
+    position: relative;
+}
+
+/* Estilos para las imágenes de la sección de clientes */
+.rowTwo img, .rowThree img {
+    width: 60%;
+    height: auto;
+    transition: all .40s;
+    text-align: center;
+}
+
+/* Estilos para la tercera fila de la sección de clientes */
+.rowThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+/* Estilos para el texto de las novedades */
+.rowThree img {
+    width: 100%;
+    cursor:pointer;
+}
+
+.rowThree img:hover {
+    transform: scale(0.9);
+}
+
+.rowThree h5, h4, p{
+    color: black;
+}
+
+/* Estilos para el encabezado h5 */
+.newText h5 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Estilos para el encabezado h4 */
+.newText h4 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.newText p {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+/* Estilos para el rectángulo */
+.rectangle {
+    width: 100%;
+    height: auto;
+    background-color: #FD904C;
+}
+
+.rectangleSection {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.rectangleSection p{
+    color: white;
+}
+/*AUDIFONOS Y AIRPODS / CELULARES / LAPTOPS Y TABLETS / ACCESORIOS*/
+/* Estilos para la selección de productos */
+.productsSelection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    place-items: center;
+}
+
+/* Estilos para el título de la selección de productos */
+.selection h2 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 32px;
+    color: #FD904C;
+}
+
+/* Estilos para las imágenes de la selección de productos */
+.imge {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Estilos para el texto secundario de la selección de productos */
+.subText {
+    color: #A0A0A0;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 80px;
+}
+
+/* Estilos al pasar el cursor sobre el texto secundario de la selección de productos */
+.subText:hover {
+    color: #2c2c2c;
+}
+
+/* Estilos para el título de padding */
+.padding h2 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+

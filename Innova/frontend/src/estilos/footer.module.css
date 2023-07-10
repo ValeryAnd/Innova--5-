@@ -1,0 +1,74 @@
+/* Estilos para el logo */
+.logo{
+    max-width: 200px;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+    min-height: 300px;
+    text-align: center;
+}
+
+
+/* Estilos para el menú del pie de página */
+.footerMenu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding:  40px 0px;
+}
+/* Estilos para los íconos en el menú del pie de página */
+.footerIcon {
+    display: flex;
+    align-items: center;
+}
+/* Estilos para los enlaces del menú del pie de página */
+.footerMenu a,.footerList{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* Estilos para los enlaces de lista en el menú del pie de página */
+.footerMenu ul a{
+    padding: 20px 0px;
+}
+/* Estilos para los elementos de lista en el menú del pie de página */
+.footerMenu li {
+    text-align: center;
+}
+
+.footerList p{
+    color: white;
+    text-transform: none;
+}
+
+.ListProducts, .footerList p, .contactUs {
+    padding-top: 15px;
+}
+.ListProducts li{
+    padding-bottom: 7px;
+}
+
+.ListProducts a{
+    text-transform: capitalize;
+}
+
+.ListProducts a:hover{
+    color: #FF9858;
+}
+
+/* Estilos para la sección de compra en el pie de página */
+.footerBuy {
+    text-align: center;
+    padding-bottom: 20px ;
+}
+/* Estilos para el texto de derechos de autor */
+.copyright{
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+}

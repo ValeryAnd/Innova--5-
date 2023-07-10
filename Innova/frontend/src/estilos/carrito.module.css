@@ -1,0 +1,238 @@
+.carritoSection {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bolsaCompra {
+    padding: 100px 0;
+}
+
+.bolsaCompra h1 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.carritoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 50px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.carritoItem img {
+    width: 200px;
+}
+
+.carritoItemDesc{
+    width: 50%;
+}
+
+.carritoItemDesc div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carritoItem button {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    color: black;
+    font-size: 18px;
+    transition: ease 0.1s;
+    cursor: pointer;
+}
+
+.carritoItem button:hover {
+    background:  #FD904C;
+    font-weight: bolder;
+    transition: ease 0.2s;
+}
+
+.resumenCompra {
+    padding: 100px 0;
+}
+
+.resumenDatos {
+    padding: 50px 0;
+}
+
+.resumenDatoDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumenItem {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 25px 0;
+    padding: 10px;
+}
+
+.resumenItemLabel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonCart {
+    width: 100%;
+    height: 57px;
+    background-color: #FD904C;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.buttonCart:hover {
+    transform: scale(1.1);
+}
+
+.sectionTitle {
+    color: #FD904C;
+    margin-Top: 50px;
+    margin-Bottom: 10px;
+}
+
+.detallesFacturacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+}
+
+.detallesFacturacion h3 {
+    grid-area: 1 / 1 / 2 / 3;
+    color: #FD904C;
+    padding: 0;
+}
+
+.detallesFacturacion label {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+}
+
+.detallesFacturacion input {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.detallesEnvio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+
+.detallesEnvio h3 {
+    grid-area: 1 / 1 / 2 / 3;
+    color: #FD904C;
+    padding: 0;
+}
+
+.detallesEnvio label {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+}
+
+.detallesEnvio input {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.envioDireccion {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.envioDireccion label {
+    width: 100%;
+}
+
+.envioDireccion input {
+    width: 100%;
+}
+
+.detallesPago {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+}
+
+.detallesPago h3 {
+    grid-area: 1 / 1 / 2 / 3;
+    color: #FD904C;
+    padding: 0;
+}
+
+.detallesPago label {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+}
+
+.detallesPago input {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.pagoRadiogroupContainer {
+    border: 1px dashed black;
+    padding: 20px;
+}
+
+.pagoRadiogroup {
+    display: flex;
+    align-items: center;
+}
+
+.pagoRadiogroup label {
+    width: 90%;
+    margin-Left: 20px;
+}
+
+.pagoRadiogroup input {
+    width: 20px;
+}
+
+.confirmationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.confirmationContainer h1 {
+    color: #FD904C;
+    font-size: 36px;
+    margin: 25px 0;
+}
+
+.confirmationContainer p {
+    font-size: 24px;
+}

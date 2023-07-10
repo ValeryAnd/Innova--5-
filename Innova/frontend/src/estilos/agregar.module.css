@@ -1,0 +1,159 @@
+.selection h2 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 32px;
+    color: #FD904C;
+}
+
+/* Estilos al pasar el cursor sobre el texto secundario de la selección de productos */
+.itemContainer {
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 50%;
+}
+
+.itemContainer img {
+    width: 80%;
+    height: 100%;
+}
+
+.infoContainer {
+    width: 50%;
+    padding: 100px 50px;
+}
+
+.infoContainer h2 {
+    color: #FD904C;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.infoContainer p {
+    font-size: 18px;
+    text-align: justify;
+}
+.productInfoContainer h1 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.infoContainer h3 {
+    margin: 25px 0;
+    font-size: 30px;
+}
+
+.infoContainer input {
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+.infoContainer button {
+    background-color: #FD904C;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    margin-left: 50px;
+    color: white;
+}
+
+.infoContainer button:hover{
+    background-color: #fc9d62;
+}
+.productInfoContainer {
+    display: flex;
+    width: 100%;
+}
+
+.featuresContainer {
+    width: 50%;
+    padding: 50px;
+}
+
+.featuresContainer h1{
+    margin-bottom: 50px;
+}
+
+.especificationsContainer {
+    width: 50%;
+    padding: 50px;
+}
+
+.especificationsContainer h1{
+    margin-bottom: 50px;
+}
+
+.especificationsContainer ul li{
+    list-style-type: circle;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    place-items: center;
+}
+/* Estilos para la tercera fila de la sección de clientes */
+.rowThree {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    transition: all 0.40s;
+}
+
+/* Estilos para el texto de las novedades */
+.rowThree img {
+    width: 60%;
+}
+
+.rowThree img:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* Estilos para el encabezado h5 */
+.newText h5 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Estilos para el encabezado h4 */
+.newText h4 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.newText p {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.centerText h2 {
+    color: #FD904C;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 30px;
+}
